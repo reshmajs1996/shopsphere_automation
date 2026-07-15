@@ -1,0 +1,16 @@
+environment: QA
+
+qa:
+  base_url: https://demowebshop.tricentis.com
+
+uat:
+  base_url: https://uat.shopsphere.com
+
+prod:
+  base_url: https://shopsphere.com
+
+browser: chromium
+
+headless: false
+
+timeout: 30000
