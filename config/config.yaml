@@ -1,16 +1,20 @@
-environment: QA
-
-qa:
-  base_url: https://demowebshop.tricentis.com
-
-uat:
-  base_url: https://uat.shopsphere.com
-
-prod:
-  base_url: https://shopsphere.com
+environment: qa
 
 browser: chromium
 
 headless: false
 
 timeout: 30000
+
+qa:
+  base_url: https://demowebshop.tricentis.com
+  username: testuser@test.com
+  password: Password123
+
+uat:
+  base_url: https://uat.shopsphere.com
+  username: uat_user
+  password: uat_password
+
+prod:
+  base_url: https://shopsphere.com
