@@ -1,0 +1,1 @@
+# shopsphere_automation
